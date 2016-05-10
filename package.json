@@ -1,0 +1,27 @@
+{
+  "name": "com.expedia.tools.aws.elb.listener",
+  "version": "1.0.0",
+  "description": "Listens to updates from AWS ELB Service, with proactive Reconciliation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "aws",
+    "elb",
+    "listen"
+  ],
+  "author": "Zaal Tonia",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mockery": "^1.6.2",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.3.8",
+    "bluebird": "^3.3.5",
+    "request-promise": "^3.0.0"
+  }
+}
